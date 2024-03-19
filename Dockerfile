@@ -5,7 +5,7 @@ FROM ubuntu:20.04
 ARG DEBIAN_FRONTEND=noninteractive
 
 # Set working directory
-WORKDIR /var/www/html/
+WORKDIR /var/www/html/laravel-app
 
 # Update package repositories
 RUN apt-get update
